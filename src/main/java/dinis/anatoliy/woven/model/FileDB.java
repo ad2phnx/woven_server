@@ -43,4 +43,12 @@ public class FileDB {
     public String getType() {
         return type;
     }
+
+    public byte[] getData() {
+        return data;
+    }
+
+    public void setData(byte[] data) {
+        this.data = data;
+    }
 }
